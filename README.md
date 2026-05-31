@@ -1,66 +1,72 @@
-# Elixir Vault
+# 🛡️ Elixir Vault
 
-Elixir Vault is a modern, high-performance Android download manager and browser utility designed for simplicity, speed, and advanced control.
+Elixir Vault is a professional-grade, high-performance Android download manager and private browser utility. Built with a focus on **Privacy, Speed, and Security**, it offers advanced features typically reserved for desktop-class applications.
 
-## ✨ Features
+---
 
-- **Integrated Browser**:
-    - Multi-tab support.
-    - **Customizable Search Engines**: Support for Google, DuckDuckGo, Bing, and Brave.
-    - **Search in Page**: Find specific text within any webpage.
-    - **Privacy First**: Ad-blocker and JavaScript toggle.
-    - **Independent Themes**: Set a different theme for the browser (Light, Dark, AMOLED) independent of the app's theme.
-    - **Home & Home Navigation**: Quickly jump to your selected search engine's home page.
+## ✨ Key Features
 
-- **Optimized for SourceForge**: 
-    - Auto-select best mirrors.
-    - Skip intrusive ad pages.
-    - Direct link extraction for faster starts.
+### 🌐 Advanced Browser Engine
+- **Privacy-Centric**: Built-in Ad-blocker, JavaScript toggles, and **Incognito Mode** that leaves zero footprint (no history, cookies, or cache).
+- **Modern UI & Blur**: Redesigned clean and modern interface with **Glassmorphism (Blur)** effects on navigation bars and floating elements.
+- **Default Browser Support**: Seamlessly set as your system's default browser.
+- **Modern Navigation**: Multi-tab support with a dedicated **Tab Manager** and quick **Find in Page** functionality.
+- **Customizable Experience**: Independent theme settings (AMOLED/Dark/Light) and support for Google, DuckDuckGo, Bing, and Brave.
+- **Custom DNS**: Block ads and trackers at the network level with support for **Custom DNS servers**.
 
-- **Powerful Download Management**: 
-    - **Multi-part Downloading**: Accelerate downloads with multiple connections per file (up to 32 connections).
-    - **Custom Directory**: Full control over where your files are saved.
-    - **Auto-Organize**: Group downloads into subfolders by file type (Video, Audio, Docs, etc.).
-    - **Smart Conflict Resolution**: Rename, Overwrite, or Skip duplicate files.
-    - **Integrity Verification**: Automatic MD5/SHA check after download completion.
-    - **Network Control**: WiFi-only mode and global speed limits to save data and bandwidth.
-    - **File Type Icons**: Visual identification of files (Video, Music, PDF, APK, etc.).
-    - **Status Badges**: Real-time download state reflected directly on file icons.
+### ⚡ Professional Download Management
+- **Multi-Part Acceleration**: Turbocharge downloads with up to **32 concurrent connections** per file.
+- **Video Playback**: Instant **Play button** for video files, allowing you to watch downloads directly from the app or preview them while they are still downloading.
+- **Smart Organization**: Automatic categorization of files (Videos, Music, PDFs, APKs) into dedicated subfolders.
+- **SourceForge Optimization**: Direct link extraction and mirror auto-selection to bypass intrusive wait screens.
+- **Integrity & Security**: MD5/SHA checksum verification and smart conflict resolution (Rename/Overwrite/Skip).
 
-- **Modern & Adaptive UI**:
-    - Built using **Jetpack Compose** with **Material 3**.
-    - **Dynamic Theming**: Supports System, Light, Dark, and **AMOLED (Pure Black)** modes.
-    - **Edge-to-Edge**: Fully immersive experience with transparent system bars.
-    - **Adaptive Layouts**: Support for different screen sizes and orientations.
-    - **Network Status Indicator**: Real-time monitoring of connection type (WiFi/Mobile/Disconnected) in the dashboard.
+### 🔒 Privacy & Security
+- **WireGuard® Integration**: Built-in support for the modern **WireGuard VPN protocol** for secure, high-speed tunneling.
+- **Biometric Protection**: Secure your vault with Fingerprint, Face ID, or Device Credentials.
+- **Custom DNS**: Support for entering custom DNS servers to block ads and increase privacy at the network level.
+- **Proxy Aware**: Full support for HTTP and SOCKS5 proxies for restricted environments.
 
-- **Security & Performance**:
-    - **Biometric Lock**: Secure the entire app with Fingerprint, Face, or Device Credentials.
-    - **Proxy Support**: Configure HTTP/SOCKS proxies for secure or restricted browsing.
-    - **Low Overhead**: Optimized with R8/ProGuard for a tiny app footprint and high performance.
+### ⚙️ Premium Personalization
+- **Custom Fonts**: Choose from multiple font styles (Monospace, Serif, Sans-Serif) to suit your taste.
+- **Device Insight**: View detailed device information and market name directly within the settings.
+- **Turbo Update System**: High-speed in-app updater with optimized I/O, background checks, and a polished changelog interface.
+- **Smart Installer**: Seamlessly download updates and choose between instant installation or manual APK management.
+- **Organization**: Auto-categorize downloads and manage duplicate files with ease.
 
-- **Deep Customization**:
-    - **Multi-language**: Interface available in English, Spanish, French, German, Hindi, and Indonesian.
-    - **Advanced Notifications**: Separate toggles for completion sounds, vibration, and LED alerts.
-    - **Storage Insights**: Real-time view of internal storage and cache management.
-    - **App Restart**: Easy one-tap restart from settings to apply low-level changes.
+### 🤖 Intelligent Localization
+- **Instant AI Translation**: Powered by ML Kit, the app translates its entire interface into multiple languages **instantly** without requiring a restart.
+- **Localization on the Fly**: Toggle translation settings and see your dashboard update in real-time.
 
-## 🛠️ Technical Details
+---
 
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose (Material 3)
-- **Networking**: OkHttpClient with dynamic Proxy support and custom connection timeouts.
-- **Database**: Room for metadata, download history, and browser bookmarks/history.
-- **State Management**: Jetpack DataStore (Preferences) for persistent settings.
-- **Navigation**: Type-safe navigation using Kotlin Serialization.
+## 🎨 Modern UI & UX
+- **Material 3 Design**: Built entirely with **Jetpack Compose** for a fluid, adaptive interface with smooth list animations.
+- **Premium Branding**: All-new professional app icon and redesigned **Animated Splash Screen** for a modern, high-end entry experience.
+- **Glassmorphism**: Elegant use of background blur and transparency in the browser navigation bars for a cutting-edge aesthetic.
+- **Customization**: Personalize your experience with **Custom Fonts** and adaptive layouts for all screen sizes.
+- **AMOLED Mode**: Pure black theme designed to save battery and look stunning on high-end displays.
+
+---
+
+## 🛠️ Technical Stack
+- **Architecture**: Clean Architecture with MVVM.
+- **Concurrency**: Kotlin Coroutines & Flow for reactive state management.
+- **Database**: Room for reliable metadata and history storage.
+- **Networking**: OkHttp & Retrofit with custom interceptors for proxy handling.
+- **VPN Engine**: WireGuard Android Tunnel for professional-grade security.
+- **ML Capabilities**: Google ML Kit for on-device AI Translation.
+
+---
 
 ## 🚀 Getting Started
+1. **Explore**: Use the built-in browser to find files or paste a **Direct Link**.
+2. **Download**: Experience high-speed multi-threading and real-time progress monitoring.
+3. **Secure**: Enable the **Biometric Lock** and **VPN** in settings for maximum privacy.
+4. **Customize**: Tweak your theme and language settings in the **Settings** panel.
 
-1. **Launch**: Open Elixir Vault and grant necessary permissions.
-2. **Search**: Use the **Explore** button to start browsing with your preferred search engine.
-3. **Download**: Long-press links or use the "Direct Link" button to start a download.
-4. **Manage**: Monitor progress in the **Dashboard** and view finished files in the **Library**.
-5. **Personalize**: Head to **Settings** to tweak themes, network limits, and security.
+---
 
-## 👷 Built by
-**Arijit Saha**
+## 👷 Developer
+**Arijit Saha**  
+*Building secure tools for the modern mobile era.*
