@@ -7,7 +7,8 @@ Elixir Vault is a professional-grade, high-performance Android download manager 
 ## ✨ Key Features
 
 ### 🌐 Advanced Browser Engine
-- **Privacy-Centric**: Built-in Ad-blocker, JavaScript toggles, and **Incognito Mode** that leaves zero footprint (no history, cookies, or cache).
+- **Privacy-Centric**: Built-in Ad-blocker, JavaScript toggles, and **Incognito Mode** for private browsing.
+- **Enhanced Compatibility**: Full support for Cleartext traffic (HTTP) and Mixed Content, ensuring all websites load correctly.
 - **Modern UI & Blur**: Redesigned clean and modern interface with **Glassmorphism (Blur)** effects on navigation bars and floating elements.
 - **Default Browser Support**: Seamlessly set as your system's default browser.
 - **Modern Navigation**: Multi-tab support with a dedicated **Tab Manager** and quick **Find in Page** functionality.
@@ -16,6 +17,7 @@ Elixir Vault is a professional-grade, high-performance Android download manager 
 
 ### ⚡ Professional Download Management
 - **Multi-Part Acceleration**: Turbocharge downloads with up to **32 concurrent connections** per file.
+- **Smart Link Extraction**: Enhanced support for file hosting sites like **devuploads.com**, automatically passing session cookies and referer headers for seamless downloads.
 - **Video Playback**: Instant **Play button** for video files, allowing you to watch downloads directly from the app or preview them while they are still downloading.
 - **Smart Organization**: Automatic categorization of files (Videos, Music, PDFs, APKs) into dedicated subfolders.
 - **SourceForge Optimization**: Direct link extraction and mirror auto-selection to bypass intrusive wait screens.
