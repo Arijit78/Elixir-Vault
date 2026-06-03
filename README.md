@@ -32,7 +32,7 @@ Elixir Vault is a professional-grade, high-performance Android download manager 
 ### ⚙️ Premium Personalization
 - **Custom Fonts**: Choose from multiple font styles (Monospace, Serif, Sans-Serif) to suit your taste.
 - **Device Insight**: View detailed device information and market name directly within the settings.
-- **Turbo Update System**: High-speed in-app updater with optimized I/O, background checks, and a polished changelog interface.
+- **Turbo Update System**: High-speed in-app updater with optimized I/O, background checks, and a polished changelog interface with bulleted "What's New" sections.
 - **Smart Installer**: Seamlessly download updates and choose between instant installation or manual APK management.
 - **Organization**: Auto-categorize downloads and manage duplicate files with ease.
 
@@ -48,6 +48,7 @@ Elixir Vault is a professional-grade, high-performance Android download manager 
 - **Glassmorphism**: Elegant use of background blur and transparency in the browser navigation bars for a cutting-edge aesthetic.
 - **Customization**: Personalize your experience with **Custom Fonts** and adaptive layouts for all screen sizes.
 - **AMOLED Mode**: Pure black theme designed to save battery and look stunning on high-end displays.
+- **Interactive States**: Polished feedback for every interaction, from button presses to download progress.
 
 ---
 
