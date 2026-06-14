@@ -9,6 +9,7 @@
 - **Dynamic Speed Optimization**: Automatically adjusts connections for maximum throughput.
 - **Smart Pause & Resume**: Reliable resumption of interrupted downloads.
 - **Background Downloads**: Keep downloading even when the app is closed.
+- **Intelligent Direct Link Handling**: Pasting a direct download link (MP4, APK, ZIP, etc.) in the search bar triggers an instant verification screen and immediate download overlay.
 - **Improved Extension Detection**: Intelligent mapping of server MIME types to correct file extensions, fixing issues with script-spoofed files (.php, .bin, etc.).
 
 ### 🎥 Media & Torrents
@@ -17,12 +18,16 @@
 - **In-App Media Player**: Play downloaded videos and music directly within the app.
 - **Organized Library**: Automatically categorizes files by type (Movies, Music, Archives, etc.).
 
-### 🌐 Secure Browser
-- **Ad-Blocker**: Built-in protection against intrusive ads and trackers via custom DNS and logic.
+### 🌐 Seamless Secure Browser
+- **Per-Tab Incognito Mode**: Open normal and private tabs simultaneously. Toggle privacy status for any tab instantly from the options menu.
+- **Smart Search Bar**: 
+    - **Auto-Clear**: Clears automatically on focus for a fresh entry.
+    - **Clipboard Integration**: Shows a preview of your last copied link as a hint.
+    - **Quick Paste**: Dedicated button to instantly paste text/links from your clipboard.
+    - **Intelligent Restore**: Automatically restores the original URL if browsing is continued without a new search.
+- **Ad-Blocker**: Built-in protection against intrusive ads and trackers.
 - **Privacy Mode**: Integrated VPN support and custom DNS settings for anonymous browsing.
-- **Clean Interface**: Navigation drawer is automatically disabled in browsing mode to maximize screen space and focus.
-- **Exit Confirmation**: Safeguard your browsing session with a confirmation dialog before returning to the dashboard.
-- **Redesigned Options**: Sleek, fully rounded Material 3 menu for bookmarks, history, and desktop mode.
+- **Clean Interface**: Navigation drawer is automatically disabled in browsing mode to maximize focus.
 
 ### 🧠 Ultron AI (Now with Voice!)
 - **Groq Integration**: Powered by Llama 3.3 70B for lightning-fast, professional technical assistance.
@@ -31,8 +36,9 @@
 
 ### 🛡️ Security & Performance
 - **Biometric Lock**: Secure your entire library with fingerprint or face unlock.
+- **Exit Protection**: Confirmation dialogs for both the Browser and the Main Dashboard to prevent accidental closures.
 - **Memory Optimized**: Throttled UI updates, efficient I/O buffering (16KB), and proactive memory management.
-- **App Updater**: Built-in update engine with persistent indicators and easy installation.
+- **App Updater**: Built-in update engine with persistent indicators and easy installation via a redesigned "What's New" section.
 - **Modern UI**: Material You design with True Black AMOLED theme support and glassmorphism elements.
 
 ## 🛠️ Tech Stack
